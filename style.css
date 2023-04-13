@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Dancing+Script:wght@700&family=Poppins&family=Sono:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #00DBDE;
+  background-image: linear-gradient(19deg, #00DBDE 0%, #FC00FF 100%);
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+}
+
+.auth {
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  padding: 5rem;
+  border-radius: 5rem;
+  min-width: 28rem;
+  max-width: 50rem;
+}
+
+.auth h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 2.5rem;
+  border-bottom: 0.1rem solid silver;
+}
+
+.auth form {
+  margin: 1rem;
+}
+
+.auth input {
+  width: 100%;
+  margin-top: 2rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  border: none;
+  border-bottom: 0.1rem silver solid;
+  padding-left: 0 0.5rem;
+  outline: none;
+}
+
+.auth input:hover {
+  border-bottom: 0.15rem solid #00DBDE;
+  }
+
+  .auth input::placeholder {
+    color:rgb(119, 76, 11);
+  }
+
+  .auth form p {
+    font-size: 1.4rem;
+    color: rgb(119, 76, 11);
+    padding: 3rem 0 0 0;
+    margin-bottom: 2rem;
+  }
+
+  .auth form p:hover {
+    cursor: pointer;
+    color: darkslategray;
+  }  
+
+ .auth button[type="submit"] {
+  display: block;
+  margin: 2rem auto;
+  font-size: 1.6rem;
+  width: 100%;
+  border-radius: 2.5rem;
+  background-color: rgba(32, 87, 237, 0.714);
+  padding: 1rem;
+  margin-left: 1rem;
+  border: none;
+  cursor: pointer;
+  color: aliceblue;
+ }
+
+ .auth .login-message {
+  text-align: center;
+  font-size: 1.5rem;
+ }
+
+ .auth .login-message span {
+  color: blue;
+  font-weight: 600;
+ }
+
+ .auth .login-message span:hover {
+   cursor: pointer;
+ }
+
+ footer img {
+  width: 5rem;
+  height: 5rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+ }
+
+ footer img:hover {
+  cursor: pointer;
+ }
